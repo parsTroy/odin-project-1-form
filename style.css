@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(252, 253, 255);
+}
+
+a{
+    color: rgb(74, 115, 74);
+
+}
+
+input{
+    border: solid 1px rgb(216, 219, 220);
+}
+
+input:focus {
+    border: 2px solid rgb(72, 130, 184);
+    box-shadow: 2px 1px 5px rgb(165, 165, 165);
+    outline: none;
+}
+
+input:invalid {
+    border-color: #800000;
+    border-width: 1px;
+}
+
+#bg-containor{
+    display: inline-block;
+    width: 670px;
+}
+
+#bg-photo{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+#banner{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 687px;
+    height: 180px;
+    background: rgb(54, 54, 54);
+    opacity: 0.7;
+    z-index: 5;
+}
+
+#logo{
+    position: absolute;
+    top: 225px;
+    left: 140px;
+    width: 100px;
+    z-index: 10;
+}
+
+#logo-text{
+    position: absolute;
+    font-family: 'Miltonian Tattoo', cursive;
+    top: 135px;
+    left: 260px;
+    z-index: 10;
+    color: white;
+    font-size: 100px;
+}
+
+#photo-cred{
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    left: 220px;
+    color: white;
+}
+
+#containor{
+    display: inline-block;
+    background-color: white;
+    margin-top: 200px;
+    width: 600px;
+    height: 600px;
+    left: 2000px;
+}
+
+#heading-text,
+#heading-sub-text{
+    color: rgb(24, 24, 26);
+    font-weight: bold;
+    margin-left: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head-1{
+    margin-bottom: -14px;
+}
+
+#form-right{
+    margin-top: -30px;
+    margin-bottom: 15px;
+    position: fixed;
+    margin-left: 230px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#form-left{
+    margin-top: -30px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sub-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(81, 81, 96);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.labels-style{
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(81, 81, 96);
+}
+
+.input-style{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: solid 1px rgb(216, 219, 220);
+    padding-left: 5px;
+    height: 20px;
+}
+
+#form-containor{
+    width: 440px;
+    position: fixed;
+}
+
+#form-div{
+    padding: 10px 10px 5px 30px;
+    box-shadow: 5px 1px 5px rgb(221, 221, 221);
+    width: 100%;
+}
+
+#create-btn{
+    background-color: rgb(74, 115, 74);
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 6px #888888;
+    height: 50px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#login-containor{
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 17px;
+    color: rgb(46, 46, 54);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
